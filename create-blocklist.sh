@@ -12,8 +12,8 @@ cat *.txt | uniq > blocklist
 
 LINES=`cat blocklist | wc -l`
 echo -e "\nBlocklist created: $LINES lines\n"
-ls -l blocklist
 
+ls -lh blocklist
 rm *.txt
 
 exit 0

@@ -1,9 +1,11 @@
 # P2P Blocklist Creator
 
 An automatic script to download and compile the Transmission P2P blocklist.
-If the download stops, just Ctrl^C and restart the script - it will continue...
 
-Author: Fred Brooker <original@fredbrooker.cz> https://fredbrooker.cz/
+If the download stops, just Ctrl^C and restart the script...
+
+
+Author: Fred Brooker https://fredbrooker.cz/ (<original@fredbrooker.cz>)
 
 
 ## REPO

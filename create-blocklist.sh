@@ -24,8 +24,11 @@ then
 	echo "wget is not installed!"
 	exit 1
 fi
+
 curl https://www.iblocklist.com/lists.php  | grep -Po "http:\/\/list.iblocklist.com/\?list=[^']*" > file_list
+
 wget -c -t 2 -T 5 -i file_list
+
 j=1;for i in *archiveformat=gz; do mv $i $j.txt.gz; j=$(($j+1)); done
 gunzip *.gz
 

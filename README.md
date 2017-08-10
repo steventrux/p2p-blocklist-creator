@@ -8,4 +8,4 @@ If the download stops, just Ctrl^C and restart the script...
 Author: Fred Brooker
 
 
-
+Set https://raw.githubusercontent.com/steventrux/p2p-blocklist-creator/master/blocklist as Blocklist Url in your BT client

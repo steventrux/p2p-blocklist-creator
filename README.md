@@ -5,7 +5,8 @@ An automatic script to download and compile a P2P blocklist from  https://www.ib
 If the download stops, just Ctrl^C and restart the script...
 
 
-Author: Fred Brooker
+Original Author: Fred Brooker
+Daily Updates provided by Steven Trux
 
 
 Set https://raw.githubusercontent.com/steventrux/p2p-blocklist-creator/master/blocklist as Blocklist Url in your BT client
